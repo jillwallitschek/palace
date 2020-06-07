@@ -1,0 +1,400 @@
+/*Palace Styles by Jill Wallitschek*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: "Vonique";
+    src: url(../fonts/vonique-43/vonique43_d.otf)
+
+/*Vonique 43
+By Dennis Ludlow
+Sharkshock 2019 all rights reserved
+found at https://www.1001freefonts.com/vonique-43.font
+*/
+}
+
+/* ------------- main containers -------------- */
+
+body{
+    font-family: Gerogia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    letter-spacing: 0.3em;
+    background-color: black;
+}
+
+header{
+    background: url(../images/palace-corn.jpg);
+    width: 100%;
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 130px 0;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#main-content{
+    width: 840px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+footer{
+    width: 900px;
+    margin: 25px auto 0 auto;
+    text-align:center;
+    color: white;
+    font-size: 18px;
+    padding: 0 0 10px  0;
+    background:black;
+    border-bottom: 10px solid white;
+}
+
+footer p{
+    margin-top: -10px;
+    padding: 5px 0 15px 0;
+    vertical-align: top;
+}
+
+/* ----------------- nav styling ----------------------- */
+
+nav#social-nav{
+    background: black;
+    text-align: right;
+    width: 900px;
+    margin: 0px auto;
+}
+
+nav#social-nav #logo{
+    float: left;
+    vertical-align: bottom;
+}
+
+ul#social-nav-links{
+    list-style:none;
+    padding: 7px 20px 3px 20px;
+}
+
+ul#social-nav-links li{
+    display: inline;
+}
+
+ul#social-nav-links li a, ul#social-nav-links li a:link{
+    text-decoration: none;
+}
+
+nav#main-nav{
+    background: black;
+    width: 900px;
+    margin: 0px auto;
+    text-transform: uppercase;
+}
+
+ul#main-nav-links{
+    list-style:none;
+    padding: 5px 0;
+    line-height: 90%;
+    padding: 20px 0 10px 0;
+}
+
+ul#main-nav-links li{
+    display: inline;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: Vonique, sans-serif;
+}
+
+ul#main-nav-links li a, ul#main-nav-links li a:link, ul#main-nav-links li a:visited{
+    text-decoration: none;
+    color: white;
+    padding: 0px 6px;
+}
+
+ul#main-nav-links li a:hover{
+    text-decoration: none;
+    color: gray;
+    padding: 0px 6px;
+}
+
+ul#main-nav-links li a#current-page{
+    padding: 0px 6px;
+    font-weight: bold;
+    color: #666;
+}
+
+footer p a, footer p a:visited, footer p a:link{
+    color: white;
+}
+
+footer p a:hover{
+    color: grey;
+}
+
+.button-small, .button-large{
+    margin: 20px 0;
+}
+
+.button-small a, .button-small a:link, .button-small a:visited{
+    border: 1px solid black;
+    padding: 10px 10px 5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Vonique, sans-serif;
+}
+
+.button-large a, .button-large a:link, .button-large a:visited{
+    border: 1px solid black;
+    padding: 10px 10px 5px 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: Vonique, sans-serif;
+}
+
+.button-small a:hover, .button-large a:hover{
+    background-color: gray;
+}
+
+a, a:link, a:visited{
+    color: gray;
+}
+
+a:hover{
+    color: black
+}
+
+/* ---------------headings------------------ */
+
+h1, h2, h3, footer{
+    font-family: Vonique, sans-serif;
+    letter-spacing: .13em;
+    line-height: 70%;
+    padding: 20px 0 10px 0;
+}
+
+h4{
+    font-family: Gerogia, 'Times New Roman', Times, serif;
+    letter-spacing: .13em;
+}
+
+h1{
+    padding-top: 55px;
+    font-size: 145px;
+    text-transform: uppercase;
+    text-align: center;
+    background: rgba( 0, 0, 0, 0.5);
+    color: white;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+h4{
+    font-size: 16px;
+}
+
+/*------------------- index main content styling ------------------*/
+
+p{
+    padding: 5px;
+    line-height: 150%;
+}
+
+.float-left{
+    float:left;
+}
+
+#guitar{
+    width: 250px;
+    padding: 5px 10px 10px 0
+}
+
+.albums{
+    width: 159px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 0px;
+}
+
+.albums img{
+    width: 159px;
+}
+
+a .albums h3{
+    line-height: 120%;
+    color: black;
+    margin-top: -5px;
+}
+
+a .albums{
+    line-height: 120%;
+    text-decoration: none;
+}
+
+a:hover .albums h3{
+    background-color:gray;
+}
+
+a:hover .albums img{
+    opacity: 90%;
+}
+
+#merch-inline div{
+    padding-top:40px;
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    text-align: center;
+}
+
+#merch-inline h3{
+    line-height: 140%;
+}
+
+#merch-inline img{
+    width:280px;
+}
+
+/*--------------Store Main CSS ---------------------*/
+
+p#shopping-cart{
+    font-family: Gerogia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#shopping-cart a, #shopping-cart a:link, #shopping-cart a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+#shopping-cart a:hover{
+    text-decoration: none;
+    color:gray;
+}
+
+.store-box{
+    width: 203px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 5px 0px;
+
+}
+
+.store-box img{
+    width: 202px;
+}
+
+.store-box h3, .store-box h4{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.store-box h4{
+    padding-bottom: 7px;
+}
+
+a .store-box h3, a .store-box h4{
+    line-height: 120%;
+    color: black;
+    margin-top: -5px;
+    text-decoration: none;
+}
+
+a .store-box{
+    line-height: 120%;
+}
+
+a:hover .store-box h3, a:hover .store-box h4{
+    background-color:gray;
+}
+
+a:hover .store-box img{
+    opacity: 90%;
+}
+
+.store-container a{
+    text-decoration: none;
+}
+
+#store-questions{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 25px 0 5px 0;
+}
+
+#store-questions a, #store-questions a:link, #store-questions a:visited{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#store-questions a:hover{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+
+/*------------------ tour css -------------------*/
+table#tour-table{
+    font-family: Vonique, sans-serif;
+    text-align:center;
+    margin: 10px 0 20px 0;
+    border-top: 3px solid black;
+}
+
+td{
+    border-bottom: 3px solid black;
+}
+
+table td{
+    width: 33%;
+
+}
+
+table h3{
+    line-height: 130%;
+    padding: 0px 10px;
+    text-align: left;
+}
+
+#tour-table h2{
+    font-size:22px;
+}
+
+
+/*---------------- tour styling ------------------*/
+
+#tour-request{
+    width: 430px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+#tour-request p{
+    padding-bottom: 15px;
+}
+
+#palace-wallpaper{
+    width: 400px;
+}
+
+#images-tour{
+    width:830px;
+    margin: 0px auto;
+}
+
+
